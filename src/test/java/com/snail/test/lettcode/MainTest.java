@@ -7,6 +7,13 @@ import java.net.SocketPermission;
  */
 public class MainTest {
     public static void main(String[] args) {
-        System.out.println();
+       try {
+           Thread.sleep(2222);
+       }catch (Exception e){
+           e.printStackTrace();
+       }
+
+        System.out.println("end ");
+
     }
 }
