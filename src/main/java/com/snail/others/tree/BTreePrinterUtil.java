@@ -88,6 +88,13 @@ class Node<T extends Comparable<?>> {
     public Node(T data) {
         this.data = data;
     }
+    public static Node copy(Node p){
+        Node tmp = new Node(p.data);
+        tmp.left = p.left;
+        tmp.right = p.right;
+        return tmp;
+    }
+
 }
 
 class BTreePrinter {
