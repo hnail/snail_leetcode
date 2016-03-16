@@ -12,7 +12,7 @@ public class BST {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         //int[] values = createValue();
-        int[] values =  new int[]{53, 30, 72, 14, 39, 9, 23, 18,37};
+        int[] values = new int[]{53, 30, 72, 14, 39, 9, 23,  37,18,35};
         //int[] values = {1};
         //int[] values = {10,8,4,2,6,1,3,5,7};
         System.out.println(Arrays.toString(values));
@@ -105,11 +105,8 @@ public class BST {
         }*/
 
 
-
         //System.out.println();
     }
-
-
 
 
     /*
@@ -163,6 +160,8 @@ public class BST {
         }
         return true;
     }
+
+
 
     /*
     *   删除节点
